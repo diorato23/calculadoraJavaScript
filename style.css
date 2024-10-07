@@ -25,16 +25,16 @@ body {
   border: none;
   outline: none;
   background-color: #111;
-  color: white;
+  color: #eee;
 }
 
-.grid-container > button:hover{
+.grid-container > button:hover {
   background-color: #eee;
   color: #111;
 }
 
 .grid-container > .operator {
-  background-color: #41b88375;
+  background: #41b88375;
 }
 
 .span-two {
@@ -43,7 +43,7 @@ body {
 
 .grid-container > .output {
   grid-column: 1 / -1;
-  background-color: #222;
+  background: #222;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -53,7 +53,7 @@ body {
   word-break: break-all;
 }
 
-.grid-container > .output > .previos-operand {
+.grid-container > .output > .previous-operand {
   color: rgba(255, 255, 255, 0.75);
   font-size: 1.5rem;
 }
