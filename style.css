@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+body {
+    background: linear-gradient(to right, #233329, #41b883);
+}
+
+.grid-container {
+    display: grid;
+    justify-content: center;
+}
